@@ -47,7 +47,7 @@ h2 {
 
 .inputBox input[type="submit"], .inputBox input[type="reset"] {
     background-color: #308aea;
-    color: #fff;
+    color:black;
     cursor: pointer;
 }
 
