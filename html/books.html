@@ -6,61 +6,23 @@
 </head>
 <body>
   <div id="headerContainer"></div>
-
-  <script src="../js/loadHeader.js"></script>
-
-
+  
   <div id="large-th">
     <div class="container">
       <h1>January Books</h1>
       <br>
+      <input type="text" id="textInput" placeholder="Type something..." oninput="getContent()">
+
       <div class="choose">
         <a href="#list-th"><i class="fa fa-th-list" aria-hidden="true"></i></a>
         <a href="#large-th"><i class="fa fa-th-large" aria-hidden="true"></i></a>
       </div>
       <div id="list-th">
-      
-
       </div>
     </div>
   </div>
-  <script>
-    
-    var books = [
-      {
-        image: 'https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg',
-        author: 'Mary Shelly',
-        title: 'Frankenstein',
-        price: 34
-      },
-      {
-        image: 'https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg',
-        author: 'Mary Shelly',
-        title: 'Frankenstein',
-        price: 34
-      },
-      {
-        image: 'https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg',
-        author: 'Mary Shelly',
-        title: 'Frankenstein',
-        price: 34
-      }
-    ]
-    console.log(books[1].author);
-    var output = '';
-    
-    books.forEach((book)=> output += "<div class = 'book read'>"  +
-                                       "<div class = 'cover'>" + 
-                                         "<img src=" + book.image + ">" +
-                                       "</div>" + 
-                                       "<div class = 'description'>" + 
-                                         "<p class = 'title'>" + book.title + "<br>" +
-                                           "<span class = 'author'>" + book.author + "</span></p>" +
-                                       "</div>" + 
-                                     "</div>"
-                  )
-      document.getElementById('list-th').innerHTML = output;
-    
-  
-  </script>
+
+  <script src="../js/books.js"></script>
+  <script src="../js/loadHeader.js"></script>
+
 </body>
