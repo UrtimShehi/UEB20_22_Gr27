@@ -6,6 +6,9 @@
 
 
 .navElements {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -23,7 +26,8 @@
 nav {
    background-color: #dd1717;
    color: white;
-   
+   display: flex;
+   align-items: center;
 }
 
 .a1 {
