@@ -50,12 +50,3 @@
 span{
     color: rgb(255, 153, 0);
 }
-.contact-box code {
-    background-color: #f5f5f5;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    margin-top: 10px;
-    display: block;
-    white-space: pre-wrap;
-   }
