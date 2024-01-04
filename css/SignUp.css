@@ -1,12 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e5b9b9;
+   
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/fotot/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-size: cover;
+    display: flex;
 }
 
 .container {
     width: 400px;
     padding: 45px;
-    background-color: #ffffff;
+    background-color: #8a8080;
+    color: #000000;
     margin: 0 auto;
     margin-top: 100px;
     box-shadow: 0 22px 17px rgba(0, 0, 0, 0.1);
@@ -27,7 +31,7 @@ h1 {
 label {
     display: block;
     margin-bottom: 4px;
-    color: #666;
+    color: black;
 }
 
 input, select {
@@ -46,7 +50,7 @@ input:focus, select:focus {
 button {
     width: 105%;
     padding: 8px;
-    background-color: #308aea;
+    background-color: brown;
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -66,5 +70,43 @@ button {
 }
 
 button:hover {
-    background-color: rgb(0,34,71);
+    background-color: darkred;
 }
+.radio-group {
+    margin: 10px;
+    accent-color: #382e2e;
+   }
+   
+   .radio-group label {
+    margin-left: 10px;
+   }
+   
+   .radio-group input[type="radio"] {
+    display: none;
+   }
+   
+   .radio-group label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    display: inline-block;
+   }
+   
+   .radio-group label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -7px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ddd;
+    border: 1px solid #ccc;
+   }
+   
+   .radio-group input[type="radio"]:checked+label:before {
+    background: #3a79ff;
+    border: 1px solid #3a79ff;
+    box-shadow: 0px 0px 10px rgba(58, 121, 255, 0.25);
+   }
