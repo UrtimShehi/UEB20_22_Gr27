@@ -55,7 +55,7 @@ h2 {
     outline: none;
 }
 
-.inputBox input[type="submit"] {
+.inputBox input[type="button"] {
     background-color: brown;
     color: #fff;
     cursor: pointer;
@@ -63,6 +63,6 @@ h2 {
     width: 102%;
 }
 
-.inputBox input[type="submit"]:hover {
+.inputBox input[type="button"]:hover {
     background-color: darkred
 }
