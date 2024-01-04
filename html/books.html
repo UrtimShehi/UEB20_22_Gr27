@@ -2,16 +2,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BOOKS</title>
+  <script src="../js/loadHeader.js"></script>
   <link rel="stylesheet" href="/css/books.css">
+
 </head>
 <body>
   <div id="headerContainer"></div>
-  
+
   <div id="large-th">
     <div class="container">
       <h1>January Books</h1>
       <br>
-      <input type="text" id="textInput" placeholder="Type something..." oninput="getContent()">
+      <input type="text" id="textInput" placeholder="Type something..." oninput="filterBooks()">
 
       <div class="choose">
         <a href="#list-th"><i class="fa fa-th-list" aria-hidden="true"></i></a>
@@ -23,6 +25,5 @@
   </div>
 
   <script src="../js/books.js"></script>
-  <script src="../js/loadHeader.js"></script>
 
 </body>
