@@ -1,0 +1,22 @@
+.container{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(contactphoto.jfif);
+    background-size: cover;
+}
+.container .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+}
+.container .content p{
+    font-weight: 300;
+    color: #fff;
+}
+
+
