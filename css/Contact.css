@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/fotot/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-size: cover;
+}
+.content h2 {
+    text-align: center;
+    color: rgb(178, 116, 240);
+    max-width: 120px;
+    margin: 15px;
+    padding: 13px;
+}
+
+.container {
+    max-width: 120px;
+    margin: 50px ;
+    padding: 0 20px;
+    color: bisque;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    margin-top: 40px;
+    
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.text h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.text p {
+    margin: 0;
+    font-size: 16px;
+}
+.form-field {
+    margin: center;
+    width: 400px;
+    display: inline-block;
+    display: i;
+}
