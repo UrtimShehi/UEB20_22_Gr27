@@ -4,42 +4,36 @@ padding: 0;
 }
 .futeri{
 
-    background-color: #333;
-    color: #fff;
-    padding: 20px;     
+    background-color:rgb(223, 22, 22);
+    color: #fff;    
     text-align: center;
+    
 }
 .table{
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-family: 'Open Sans' sans-serif;
 }
-.col1{
-    width: 50%;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-}
-.col1 a{
-    display: flex;
-    justify-content: flex-start;
-    width:120px;
+.table a{
     text-decoration: none;
-    border-radius: 20px;
-    color: black;
-    padding: 5px;
-    transition: 0.5s;
+    color: white;
 }
-.col1 a:hover{
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
+.table p {
+    color:white;
+}
+.table ul li{
+
+    display: inline-block;
 }
 .social-links {
     display: flex;
-    justify-content:flex-end;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
+
 .img{
-    width: 15%;
-    
+    width: 30px;
+    margin: 0 15px;
 }
