@@ -37,6 +37,36 @@ var books = [
       author: "J.R.R. Tolkien",
       title: "The Hobbit",
       price: 32
+    },
+    {
+      image: "https://i.pinimg.com/236x/33/a7/d7/33a7d7f862e24d526af4485b1feaf9b6.jpg",
+      author: "Jane Austen",
+      title: "Sense and Sensibility",
+      price: 27
+    },
+    {
+      image: "https://i.pinimg.com/236x/4d/29/16/4d29168c41b3b17a3a851b487bc03161.jpg",
+      author: "Charles Dickens",
+      title: "A Tale of Two Cities",
+      price: 23
+    },
+    {
+      image: "https://i.pinimg.com/236x/27/9a/b4/279ab49914059f7d2cb6f7c165a76102.jpg",
+      author: "Emily Brontë",
+      title: "Wuthering Heights",
+      price: 31
+    },
+    {
+      image: "https://i.pinimg.com/236x/25/c6/ee/25c6eee24a06578dd7f08151b138e9af.jpg",
+      author: "Arthur Conan Doyle",
+      title: "The Hound of the Baskervilles",
+      price: 25
+    },
+    {
+      image: "https://i.pinimg.com/236x/a2/0b/a6/a20ba6bec423ab62cfc242c712813ea5.jpg",
+      author: "H.G. Wells",
+      title: "The War of the Worlds",
+      price: 29
     }
 
   ]
