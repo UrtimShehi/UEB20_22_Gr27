@@ -1,0 +1,45 @@
+.body{
+margin: 0;
+padding: 0;
+}
+.futeri{
+
+    background-color: #333;
+    color: #fff;
+    padding: 20px;     
+    text-align: center;
+}
+.table{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.col1{
+    width: 50%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.col1 a{
+    display: flex;
+    justify-content: flex-start;
+    width:120px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+    padding: 5px;
+    transition: 0.5s;
+}
+.col1 a:hover{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.social-links {
+    display: flex;
+    justify-content:flex-end;
+    justify-content: space-between;
+}
+.img{
+    width: 15%;
+    
+}

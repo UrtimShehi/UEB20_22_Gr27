@@ -1,8 +1,9 @@
 body {
 
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/fotot/wallpaperflare.com_wallpaper\ \(1\).jpg);
+   /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/fotot/wallpaperflare.com_wallpaper\ \(1\).jpg);
     background-size: cover;
+*/
     position: relative;
     display: flex;
     align-items: center;
@@ -10,29 +11,31 @@ body {
     height: 100vh;
 }
 
-.Sign in {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #3568a0;
-    color: #f4f4f4;
+.content {
+    width: 400px;
+    padding: 80px;
+    color: #000000;
+    border:1px solid red;
+    border-radius: 14px;
+    margin: 0 auto;
+    box-shadow: 0 22px 17px rgba(0, 0, 0, 0.1);
+}
+h5 a{
+    text-decoration: none;
+    color: #385898;
+}
+.content h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
 }
 
-    .content {
-        width: 400px;
-        padding: 45px;
-        background-color: #8a8080;
-        color: #000000;
-        margin: 0 auto;
-        margin-top: 100px;
-        box-shadow: 0 22px 17px rgba(0, 0, 0, 0.1);
-
-    }
-h2 {
+.content h2 {
     text-align: center;
-  
-
+    margin-bottom: 50px;
     font-size: 24px;
-    color: #1c1515;
+    color:black;
 }
 
 .form {
@@ -46,12 +49,11 @@ h2 {
     margin-bottom: 20px;
 }
 
-
 .inputBox input {
     width: 100%;
-    padding: 8px 10px 12px 0px;
+    padding: 10px 15px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 15px;
     outline: none;
 }
 
@@ -65,4 +67,12 @@ h2 {
 
 .inputBox input[type="button"]:hover {
     background-color: darkred
+}
+
+.inputBox1{
+    padding: 15px 0;
+}
+
+#inputBox{
+    accent-color:red;
 }
