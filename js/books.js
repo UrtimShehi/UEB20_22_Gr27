@@ -68,6 +68,67 @@ var books = [
       title: "The War of the Worlds",
       price: 29
     }
+    ,
+    {
+      image: "https://i.pinimg.com/236x/7b/47/7f/7b477fb5b4cd1c1f6dff4a58008e4002.jpg",
+      author: "George Orwell",
+      title: "Animal Farm",
+      price: 28
+    },
+    {
+      image: "https://i.pinimg.com/236x/ac/7a/ab/ac7aabd9cb8353b78acb5da278c8a339.jpg",
+      author: "Homer",
+      title: "The Odyssey",
+      price: 22
+    },
+    {
+      image: "https://i.pinimg.com/236x/69/7b/56/697b56220913325e4e0ac1bdd4d5f161.jpg",
+      author: "Aldous Huxley",
+      title: "Brave New World",
+      price: 30
+    },
+    {
+      image: "https://observerkult.com/wp-content/uploads/2022/08/gori-1.jpg",
+      author: "Petro Marko",
+      title: "Hasta la Vista",
+      price: 26
+    },
+    {
+      image: "https://i.pinimg.com/236x/a9/7c/69/a97c69d3e2cbf5ac7debcff653cd6957.jpg",
+      author: "Jules Verne",
+      title: "Twenty Thousand Leagues Under the Sea",
+      price: 32
+    },
+    {
+      image: "https://i.pinimg.com/236x/c4/e1/d2/c4e1d283f9bd589b8c721abbfc3f9816.jpg",
+      author: "Jean-Paul Sartre",
+      title: "Nausea",
+      price: 28
+    },
+    {
+      image: "https://i.pinimg.com/236x/ec/bf/61/ecbf615cf26584e6b7d97256b1ac1ceb.jpg",
+      author: "Albert Camus",
+      title: "The Stranger",
+      price: 22
+    },
+    {
+      image: "https://i.pinimg.com/236x/1f/98/4a/1f984a7e4fcc5582ed84416d96792e98.jpg",
+      author: "Fyodor Dostoevsky",
+      title: "Notes from Underground",
+      price: 30
+    },
+    {
+      image: "https://i.pinimg.com/236x/79/d1/9a/79d19a1786ad8883c4d911fe31f25517.jpg",
+      author: "Franz Kafka",
+      title: "The Trial",
+      price: 26
+    },
+    {
+      image: "https://i.pinimg.com/236x/ab/82/d3/ab82d397d0735bc81644dbfeee6ea660.jpg",
+      author: "Friedrich Nietzsche",
+      title: "Thus Spoke Zarathustra",
+      price: 28
+    }
 
   ]
 
