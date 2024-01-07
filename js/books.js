@@ -1,28 +1,44 @@
 var books = [
+  
+   
+  
     {
-      image: "http://d.gr-assets.com/books/1414348859l/23209971.jpg",
-      author: 'Mary Shelly',
-      title: 'Libri  1',
-      price: 34
+      image: "https://i.pinimg.com/236x/04/1c/dd/041cdd9ff00680e9586f645c90f71462.jpg",
+      author: "George Orwell",
+      title: "1984",
+      price: 28
     },
     {
-      image: 'https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg',
-      author: 'Libri 2',
-      title: 'Nita',
-      price: 34
+      image: "https://i.pinimg.com/236x/b5/2f/21/b52f216591803d8d2aaca40103c57bef.jpg",
+      author: "J.K. Rowling",
+      title: "Harry Potter and the Sorcerer's Stone",
+      price: 22
     },
     {
-      image: "http://prodimage.images-bn.com/pimages/9780062315007_p0_v2_s192x300.jpg",
-      author: 'Mary Shelly',
-      title: 'Taulant',
-      price: 34
+      image: "https://i.pinimg.com/236x/76/8a/4e/768a4e5b69a78b0114b312a9687aa53c.jpg",
+      author: "F. Scott Fitzgerald",
+      title: "The Great Gatsby",
+      price: 30
     },
     {
       image: "https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg",
       author: 'Mary Shelly',
-      title: 'Libri 3',
+      title: 'Frankenstein',
       price: 34
+    },
+    {
+      image: "https://i.pinimg.com/236x/ee/fe/dd/eefeddfd8629067d1b087ba45b3c5bce.jpg",
+      author: "Agatha Christie",
+      title: "Murder on the Orient Express",
+      price: 26
+    },
+    {
+      image: "https://i.pinimg.com/236x/f2/db/13/f2db132a4d454b953831944f1c42a15c.jpg",
+      author: "J.R.R. Tolkien",
+      title: "The Hobbit",
+      price: 32
     }
+
   ]
 
   populateDom(books)
