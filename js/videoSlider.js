@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const videoUrls = [
-        'https://www.example.com/video1.mp4',
-        'https://www.example.com/video2.mp4',
-        'https://www.example.com/video3.mp4',
+        '../video/video1.mp4',
+        '../video/video2.mp4',
+      
         // Add more video URLs as needed
     ];
 
