@@ -76,3 +76,7 @@ h5 a{
 #inputBox{
     accent-color:red;
 }
+#submit{
+    background-color: red;
+    color: #fff;
+}
