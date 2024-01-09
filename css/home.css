@@ -1,13 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    line-height: 1.3;
+    background-color:rgb(255, 255, 245);
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; 
     padding: 80px;
     text-align: center;
-    }
+    font-family: 'Times New Roman', Times, serif;    
+}
 
 h1 {
     margin-bottom: 10px;
@@ -28,4 +31,8 @@ table {
 }
 .celula2{
     padding: 130px;
+}
+.darkMode{
+    background-color: black;
+    color: white;
 }

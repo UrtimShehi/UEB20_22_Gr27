@@ -10,7 +10,7 @@
 <body>
     <div id="headerContainer"></div>
     <script src="../js/loadHeader.js"></script>
-    <header>
+    <header id="head1">
         <h1>Welcome to Our Library</h1>
         <h4>Enrich your knowledge by using our books</h4>
     </header>
@@ -55,6 +55,8 @@
            
       
     </section>
+
+    <button onclick="myfunction()">Dark Mode</button>
     
     <script>
         document.addEventListener('click', function(event) {
@@ -63,6 +65,22 @@
               document.querySelector('.menu-toggle').classList.toggle('active');
           }
       });
+      </script>
+      <script>
+        var z = 0;
+        function myfunction(){
+            var x = document.body;
+            var y = document.getElementById('head1');
+            x.classList.toggle("darkMode");
+            // y.classList.toggle("darkMode");
+            if(z === 1){
+                y.style.backgroundColor = '#f4f4f4';
+                z = 0;
+            }else{
+                y.style.backgroundColor = "#000000";
+                z = 1;
+        }
+        }
       </script>
       <div id="footerContainer"></div>
 </body>
