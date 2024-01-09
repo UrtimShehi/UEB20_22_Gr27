@@ -45,5 +45,6 @@ body {
     margin:8px auto;
 }
 span{
-    color:grey;
+    font-weight: bold;
+    color: white;
 }
