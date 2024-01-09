@@ -17,6 +17,9 @@ body {
     
     color: #fff;
 }
+h2{
+    text-shadow: 1px 1.5px grey;
+}
 .container{
     display: flex;
     width: 50%;
@@ -30,15 +33,19 @@ body {
     padding: 15px;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    outline-style: outset;
+    outline-color: red;
+    outline-width: 1.5px;
+
+
 }
 .content{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-   margin: 30px; 
-   padding: 9px;
+    margin: 30px; 
+    padding: 9px;
 }
 .contact-info{
     margin: 30px;

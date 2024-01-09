@@ -10,12 +10,19 @@ padding: 0;
     max-height:100vh ;  
     margin-top: 50px; 
 }
+tr,td{
+    padding: 3px;
+    background-color: rgb(223,22,22);
+}
 .table{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 140px;
     font-family: 'Open Sans' sans-serif;
+}
+table{
+    border-spacing: 2px;
 }
 .table a{
     text-decoration: none;
@@ -42,3 +49,4 @@ padding: 0;
 .table img{
     opacity: 1;
 }
+
