@@ -30,5 +30,13 @@
   <script src="../js/books.js"></script>
   <div id="shigjeta"></div>
   <div id="footerContainer"></div>
+  <script>
+    document.addEventListener('click', function(event) {
+      if (event.target.closest('.menu-toggle')) {
+          document.querySelector('.navElements').classList.toggle('active');
+          document.querySelector('.menu-toggle').classList.toggle('active');
+      }
+  });
+  </script>
 </body>
 </html>

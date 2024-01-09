@@ -47,3 +47,49 @@ body {
 span{
     color:grey;
 }
+#svg{
+    width: 250x;
+    height: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        max-height: 100vh;
+
+    }
+    .krejt {
+        flex-direction: column;
+        text-align: center;
+        min-height: 78vh;
+        
+    }
+    .banner {
+        max-width: 90%;
+        min-height: fit-content; 
+    }
+    #svg{
+        height: 10px;
+        width: 100px;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 7px;
+        max-width: 90%; 
+    }
+
+    .content h1 {
+        font-size: 16px;
+        margin: 7px auto 4px auto;
+        padding: 4px;
+    }
+
+    .content h5,
+    .content p {
+        font-size: 8px; 
+        padding: 3px;
+        margin: 4px auto;
+    }
+}
