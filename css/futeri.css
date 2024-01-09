@@ -10,7 +10,7 @@ padding: 0;
     max-height:100vh ;  
     margin-top: 50px; 
 }
-tr,td{
+.qelula3{
     padding: 3px;
     background-color: rgb(223,22,22);
 }
@@ -21,7 +21,7 @@ tr,td{
     height: 140px;
     font-family: 'Open Sans' sans-serif;
 }
-table{
+.tabela{
     border-spacing: 2px;
 }
 .table a{

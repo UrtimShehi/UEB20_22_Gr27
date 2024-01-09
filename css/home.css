@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 80px;
+    text-align: center;
+    }
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.features {
+    display: block;
+    justify-content: space-around;
+    margin: 40px 81px;
+
+}
+table {
+    border-spacing:0 100px ;
+}
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+#video1{
+    width: 900px;
+    border-radius: 15px;
+}
+.celula2{
+    padding: 130px;
+}
