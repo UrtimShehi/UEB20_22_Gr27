@@ -2,14 +2,17 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     line-height: 1.3;
-    background-color:rgb(255, 255, 245);
+    background-color: rgb(255, 255, 245);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
-    background-color: #f4f4f4; 
-    padding: 80px;
+    background-color: #f4f4f4;
+    padding: 20px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;    
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -17,22 +20,38 @@ h1 {
 }
 
 .features {
-    display: block;
+    display: flex;
     justify-content: space-around;
-    margin: 40px 81px;
+    margin: 20px;
+}
 
-}
 table {
-    border-spacing:0 100px ;
+    border-spacing: 0 20px;
+    width: 100%;
 }
-#video1{
-    width: 900px;
+
+#rendi {
+    display: flex;
+    width: 100%;
+}
+
+#rendi .celula1,
+#rendi .celula2 {
+    flex: 1;
+}
+
+#video1 {
+    width: 100%;
+    max-width: 100%;
     border-radius: 15px;
 }
-.celula2{
-    padding: 130px;
+
+.celula2 {
+    flex-basis: 40%; /* Adjust the width of the second column */
+    padding: 20px;
 }
-.darkMode{
+
+.darkMode {
     background-color: black;
     color: white;
 }
