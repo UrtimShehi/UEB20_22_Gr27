@@ -1,6 +1,8 @@
 .body{
 margin: 0;
 padding: 0;
+
+
 }
 
 .futeri{
@@ -8,21 +10,20 @@ padding: 0;
     color: #fff;    
     text-align: center;
     max-height:100vh ;  
-    margin-top: 50px; 
+    margin-top: 50px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center; 
 }
 .qelula3{
     padding: 3px;
     background-color: rgb(223,22,22);
 }
 .table{
-    display: flex;
-    justify-content: center;
+    padding: 25px 0;
     align-items: center;
-    height: 140px;
+    /* height: 170px; */
     font-family: 'Open Sans' sans-serif;
-}
-.tabela{
-    border-spacing: 2px;
 }
 .table a{
     text-decoration: none;
@@ -32,15 +33,10 @@ padding: 0;
     color:white;
     color: rgba(0, 0, 0, 0.7);
 }
-.table ul li{
 
-    display: inline-block;
-}
-.social-links {
+/* .social-links {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
+} */
 
 .img{
     width: 30px;
