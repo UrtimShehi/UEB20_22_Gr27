@@ -6,7 +6,7 @@ var books = [
       image: "https://i.pinimg.com/236x/04/1c/dd/041cdd9ff00680e9586f645c90f71462.jpg",
       author: "George Orwell",
       title: "1984",
-      price: 28
+      price: 27.99
     },
     {
       image: "https://i.pinimg.com/236x/b5/2f/21/b52f216591803d8d2aaca40103c57bef.jpg",
