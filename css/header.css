@@ -3,14 +3,7 @@
     margin: 0;
     padding:0;
 }
-.nav{
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    width: 100%;
-    background-color: #dd1717;
 
-}
 .navElements {
     
     width: 80%;
@@ -31,7 +24,7 @@
     color: white;
 }
 nav {
-   
+    background-color: #dd1717;
    color: white;
    display: flex;
    align-items: center;
@@ -72,6 +65,10 @@ nav {
     cursor: pointer;
     padding: 15px;
   }
+
+  a {
+    padding: 16px 22px;
+}
   
   .hamburger {
       width: 30px;
