@@ -1,6 +1,6 @@
 body {
 
-    font-family: Arial, sans-serif;
+    font-family:cursive ;
     position: relative;
     display: flex;
     align-items: center;
@@ -8,11 +8,14 @@ body {
     height: 100vh;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(235, 152, 152) 100%);
+    text-shadow: rgb(231, 104, 104) 1px 0 10px;
 }
 
 .content1{
     max-width: 30%; 
-    padding: 120px;
+    padding: 100px;
+    margin: 30px;
+    padding-bottom: 300px;
 }
 
 h2 {
