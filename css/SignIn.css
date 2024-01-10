@@ -10,6 +10,19 @@ body {
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(235, 152, 152) 100%);
 }
 
+.content1{
+    max-width: 30%; 
+    padding: 120px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#paragraf{
+    text-align: center;
+}
+
 .content {
     width: 400px;
     padding: 80px;

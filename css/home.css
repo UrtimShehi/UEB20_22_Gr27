@@ -47,7 +47,7 @@ table {
 }
 
 .celula2 {
-    flex-basis: 40%; /* Adjust the width of the second column */
+    flex-basis: 40%; 
     padding: 20px;
 }
 

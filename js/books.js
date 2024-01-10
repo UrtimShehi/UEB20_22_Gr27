@@ -151,7 +151,7 @@ var books = [
   }
 
   function filterBooks() {
-    // Get the value from the input field
+    
     var search = document.getElementById("textInput").value.toLowerCase();
     
     if(search != '') {

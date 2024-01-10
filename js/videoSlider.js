@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
         '../video/video1.mp4',
         '../video/video2.mp4',
       
-        // Add more video URLs as needed
+        
     ];
 
     const sliderContainer = document.getElementById('sliderContainer');

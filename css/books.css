@@ -65,12 +65,12 @@ Book stuff
 .book.smaller {
   width: 140px;
   height: 240px;
-  transition: transform 1s; /* Added transform property */
+  transition: transform 1s; 
 }
 
-/* Apply the smaller class on other books when one is hovered */
+
 .book:hover ~ .book:not(:hover) {
-  transform: scale(0.8); /* Adjust the scale factor as needed */
+  transform: scale(0.8); 
 }
 
 .cover {
@@ -141,7 +141,7 @@ h1 {
   margin-left: 20px;
 }
 
-/* remove button? */
+
 #large-th:target .book {
   height: 390px;
 }
