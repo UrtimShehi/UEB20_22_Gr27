@@ -26,11 +26,10 @@ padding: 0;
 }
 .table a{
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.7);
+    color: white;
 }
 .table p {
     color:white;
-    color: rgba(0, 0, 0, 0.7);
 }
 .table ul li{
 
@@ -45,6 +44,7 @@ padding: 0;
 .img{
     width: 30px;
     margin: 0 15px;
+    filter:brightness(0) invert(1);
 }
 .table img{
     opacity: 1;

@@ -3,9 +3,16 @@
     margin: 0;
     padding:0;
 }
+.nav{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: #dd1717;
 
-
+}
 .navElements {
+    
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -24,7 +31,7 @@
     color: white;
 }
 nav {
-   background-color: #dd1717;
+   
    color: white;
    display: flex;
    align-items: center;

@@ -9,7 +9,13 @@
     background-color: #f4f4f4;
     color: #333;
   }
-section{
+  .section1{
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  .section2{
     margin: 0 auto;
     min-height: 100vh; 
     max-width: 960px;
@@ -68,4 +74,5 @@ section{
   .description  .text h3 {
     font-size: 20px;
   }
+  
   
