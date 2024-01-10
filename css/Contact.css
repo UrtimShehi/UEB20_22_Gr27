@@ -36,8 +36,6 @@ h2{
     outline-style: outset;
     outline-color: red;
     outline-width: 1.5px;
-
-
 }
 .content{
     position: relative;
@@ -116,9 +114,6 @@ width: 100%;
     margin: 0 15px;
     text-transform: uppercase;
 }
-
-
-
 @media screen and (max-width: 768px) {
     .form-field {
         display: block;

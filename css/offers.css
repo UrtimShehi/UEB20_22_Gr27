@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@ section{
     min-height: 100vh; 
     max-width: 960px;
   }
+
   .offer-card {
    display: inline-block;
    align-items: center;
@@ -28,7 +30,7 @@ section{
     height: 70%;
   }
   .offer-card .text {
-   width: 150%;
+   width: 100%;
   }
   .description {
     display: flex;
@@ -60,10 +62,10 @@ section{
     font-size: 15px;
   }
   .description .text #real {
-    font-size: 20px;
+    font-size: 22px;
   }
   .description  .text h2 {
-    font-size: 22px;
+    font-size: 24px;
   }
   .description  .text h3 {
     font-size: 20px;

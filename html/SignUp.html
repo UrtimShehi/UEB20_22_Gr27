@@ -49,10 +49,26 @@
                     <input type="number" id="birthday_year" name="birthday_year" placeholder="Year" min="1950" max="2024"  required>
                 </div>
                 <div class="butoni">
-              <a href="../html/home.html"><input type="button" value="Login" id="submit"></input></a>
+              <a href="../html/home.html"><input type="button" value="Login" id="submit" onclick="checkYear(year)"></input></a>
             </div>
             </form>
         </div>
     </div>
+    <script>
+        function checkYear(year) {
+            if (year < 1950) {
+                throw new Error('Year must be 1950 or later');
+         } else {
+             return `The year ${year} is valid.`;
+         }
+    }
+try {
+    let inputYear = 1945;
+        let result = checkYear(inputYear);
+        console.log(result); 
+            }catch (error) {
+    console.error('Error:', error.message);
+    }
+</script>
 </body>
 </html>
