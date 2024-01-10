@@ -17,8 +17,8 @@ section{
   .offer-card {
    display: inline-block;
    align-items: center;
-   width: 230px;
-   height: 390px;
+   width: 270px;
+   height: 400px;
    box-shadow: 0 0 20px #aaa;
    margin: 25px;
    padding: 10px 10px 0 10px;
