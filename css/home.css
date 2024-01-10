@@ -1,12 +1,10 @@
 body {
-    font-family: cursive;
+ 
     font-size: larger;
     line-height: 1.3;
     background-color: rgb(255, 255, 245);
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-shadow: rgb(209, 194, 194) 1px 0 10px;
 }
 
 header {
@@ -21,6 +19,10 @@ h1 {
 }
 
 .features {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-around;
     margin: 20px;
@@ -54,6 +56,6 @@ table {
 }
 
 .darkMode {
-    background-color: black;
+    background-color: rgb(20,20,20);
     color: white;
 }
