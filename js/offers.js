@@ -17,35 +17,35 @@ var booksonsale = [
         image:"https://i.pinimg.com/236x/7b/47/7f/7b477fb5b4cd1c1f6dff4a58008e4002.jpg",
         author: "George Orwell",
         title:"Animal Farm",
-        price:15.99,
-        discount: 10.99
+        price:13.99,
+        discount: 10
     },
     {
         image:"https://i.pinimg.com/236x/f2/db/13/f2db132a4d454b953831944f1c42a15c.jpg",
         author: "J.R.R. Tolkien",
         title:"The Hobbit",
-        price:15.99,
+        price:20,
         discount: 10.99
     },    
     {
         image: "https://i.pinimg.com/236x/69/7b/56/697b56220913325e4e0ac1bdd4d5f161.jpg",
         author: "Aldous Huxley",
         title: "Brave New World",
-        price:15.99,
+        price:12.99,
         discount: 10.99
     },
     {
         image:"https://i.pinimg.com/236x/ac/7a/ab/ac7aabd9cb8353b78acb5da278c8a339.jpg",
         author: "Homer",
         title:"The Odyssey",
-        price:15.99,
+        price:17.99,
         discount: 10.99
     },
     {
         image:"https://observerkult.com/wp-content/uploads/2022/08/gori-1.jpg",
         author: "Petro Marko",
         title:"Hasta la Vista",
-        price:15.99,
+        price:16.99,
         discount: 10.99
     },
     {
@@ -58,7 +58,7 @@ var booksonsale = [
         image:"https://i.pinimg.com/236x/79/d1/9a/79d19a1786ad8883c4d911fe31f25517.jpg",
         author: "Franz Kafka",
         title:"The Trial",
-        price:15.99,
+        price:13.99,
         discount: 10.99
     },
 ]

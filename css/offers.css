@@ -16,6 +16,14 @@
  .section2{
   margin-top: 100px;
  }
+ .carousel-item{
+  text-align: center;
+ }
+ .carousel-item h5{
+  margin-bottom: 0;
+  font-size: 30px;
+  font-family: cursive;
+ }
  
   #discount-content{
     margin: 0 auto;
@@ -77,6 +85,24 @@
   }
   .description  .text h3 {
     font-size: 16px;
+
+  }
+  button{
+    margin: 0 auto;
+    background-color: red;
+  }
+  button span{
+    background-color: red;
+  }
+  .carousel-control-prev-icon{
+    color: red;
+  }
+  
+  @media screen and(max-width:780){
+    .carousel-item h5{
+      font-size: 30px;
+     }
+    
   }
   
   
