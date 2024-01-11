@@ -59,6 +59,7 @@
   }
   .description .text{
     height: 100px;
+    margin-top: 5px;
   }
   .description .button button:hover {
     background-color: red;  
@@ -66,16 +67,16 @@
   .description .text #price {
     text-decoration: line-through;
     color: red;
-    font-size: 15px;
+    font-size: 12px;
   }
   .description .text #real {
-    font-size: 20px;
+    font-size: 16px;
   }
   .description  .text h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .description  .text h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
   
   
