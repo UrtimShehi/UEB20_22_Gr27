@@ -60,7 +60,7 @@ input:focus, select:focus {
     border-color: #333;
 }
 
-input[type="button"] {
+input[type="submit"] {
     width: 100%;
     padding: 8px;
     background-color: red;
