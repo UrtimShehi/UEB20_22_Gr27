@@ -62,7 +62,7 @@ input:focus, select:focus {
     border-color: #333;
 }
 
-input[type="button"] {
+input[type="submit"] {
     width: 100%;
     padding: 8px;
     background-color: red;
@@ -126,9 +126,6 @@ button:hover {
     border: 1px solid red;
     box-shadow: 0px 0px 10px rgba(58, 121, 255, 0.25);
    }
-   
-
-   /* Add a media query for smaller screens */
 @media only screen and (max-width: 600px) {
     .container {
         padding: 10%;
