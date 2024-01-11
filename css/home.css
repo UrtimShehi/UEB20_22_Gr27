@@ -29,6 +29,9 @@ body {
     box-sizing: border-box;
     padding: 10px;
 }
+.txt{
+    background-color: #f4f4f4;
+}
 .txt h1{
     padding-top: 10%;
 }
