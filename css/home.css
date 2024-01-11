@@ -29,13 +29,13 @@ body {
     box-sizing: border-box;
     padding: 10px;
 }
-.txt{
+#txt{
     background-color: #f4f4f4;
 }
-.txt h1{
+#txt h1{
     padding-top: 10%;
 }
-.txt h4{
+#txt h4{
     padding-bottom: 5%;
 }
 

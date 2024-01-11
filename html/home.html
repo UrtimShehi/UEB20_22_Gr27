@@ -11,10 +11,9 @@
 <body>
     <div id="headerContainer"></div>
     <script src="../js/loadHeader.js"></script>
-    <header id="head1">
-    </header>
+    
     <section class="features">
-        <div class="txt">
+        <div id="txt">
            <h1 style="font-style:oblique;" class="text-uppercase">Welcome to Our Library</h1>
         <h4 style="font-style: oblique;" class="text-uppercase">Enrich your knowledge by using our books</h4> 
         </div>
@@ -71,7 +70,7 @@
         var z = 0;
         function myfunction(){
             var x = document.body;
-            var y = document.getElementById('head1');
+            var y = document.getElementById('txt');
             x.classList.toggle("darkMode");
             if(z == 1){
                 y.style.backgroundColor = '#f4f4f4';
