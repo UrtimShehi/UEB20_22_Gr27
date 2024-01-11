@@ -1,62 +1,63 @@
 body {
- 
     font-size: larger;
     line-height: 1.3;
     background-color: rgb(255, 255, 245);
+    margin: 0;
     padding: 0;
-}
-
-
-header {
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    padding-top: 100px;
-}
-h1 {
-    margin-bottom: 10px;
-  
 }
 
 .features {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     text-align: center;
+    margin: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.col-md-6 {
+    flex-basis: 50%;
     box-sizing: border-box;
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
+    padding: 10px;
+}
+.txt h1{
+    padding-top: 10%;
+}
+.txt h4{
+    padding-bottom: 5%;
 }
 
-table {
-    border-spacing: 0 20px;
+video {
     width: 100%;
-}
-
-#rendi {
-    display: flex;
-    width: 100%;
-}
-
-#rendi .celula1,
-#rendi .celula2 {
-    flex: 1;
-}
-
-#video1 {
-    width: 100%;
-    max-width: 100%;
+    height: auto;
     border-radius: 15px;
 }
 
-.celula2 {
-    flex-basis: 40%; 
-    padding: 20px;
-    padding-top: 120px;
-}
+/* Adjust styles for smaller screens (mobiles and laptops) */
+@media only screen and (max-width: 768px) {
+    .col-md-6 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
 
-.darkMode {
-    background-color: rgb(20,20,20);
-    color: white;
+    /* Change the order of the second row for mobile */
+    .row:nth-child(2) .col-md-6:first-child {
+        order: 2;
+    }
+
+    .row:nth-child(2) .col-md-6:last-child {
+        order: 1;
+    }
+    .txt h1{
+        padding-top: 17%;
+    }
 }

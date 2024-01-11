@@ -11,31 +11,40 @@ padding: 0;
     text-align: center;
     max-height:100vh ;  
     margin-top: 50px;
-    /* display: flex; */
     justify-content: space-between;
     align-items: center; 
 }
+
+.futeri2{
+    list-style-type: none;
+}
+
 .qelula3{
     padding: 3px;
     background-color: rgb(223,22,22);
 }
-.table{
+.futeri1{
     padding: 25px 0;
     align-items: center;
     /* height: 170px; */
     font-family: 'Open Sans' sans-serif;
 }
-.table a{
+.futeri1 a{
     text-decoration: none;
     color: white;
 }
-.table p {
+.futeri1 p {
     color:white;
 }
+.renipar,
+.reniDyte,
+.reniItret{
+    margin-left: -2%;
+}
 
-/* .social-links {
-    display: flex;
-} */
+.social-links{
+    padding-bottom: 1%;
+}
 
 .img{
     width: 30px;
@@ -44,5 +53,15 @@ padding: 0;
 }
 .table img{
     opacity: 1;
+}
+@media only screen and (max-width: 768px){
+    .renipar,
+.reniDyte,
+.reniItret{
+    margin-right: 8.5%;
+}
+.social-links{
+    padding-bottom: 0;
+}
 }
 
