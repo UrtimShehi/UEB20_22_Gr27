@@ -4,7 +4,8 @@ body {
     justify-content: center;
     background: rgb(255,151,151);
     background: linear-gradient(0deg, rgb(212, 212, 212) 0%, rgba(255,255,255,1) 100%);
-    height: 900px;
+    height: 100vh;
+    margin: 0;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
     
 }
@@ -13,9 +14,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 500px;
 }
 .container {
-    padding: 80px;
+    padding: 10%;
     border:1px solid red;
     border-radius:14px;
     box-shadow: 0 22px 17px rgba(0, 0, 0, 0.1);
@@ -60,7 +62,7 @@ input:focus, select:focus {
     border-color: #333;
 }
 
-input[type="submit"] {
+input[type="button"] {
     width: 100%;
     padding: 8px;
     background-color: red;
@@ -126,4 +128,12 @@ button:hover {
    }
    
 
-   
+   /* Add a media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10%;
+    }
+    .krejt{
+        width: 100%;
+    }
+}

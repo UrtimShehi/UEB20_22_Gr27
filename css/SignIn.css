@@ -8,15 +8,20 @@ body {
     height: 100vh;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(195, 195, 195) 100%);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+   
     font-size: 22px;
 }
-
+.signin-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 .content1{
-    max-width: 30%; 
-    padding: 100px;
-    margin: 30px;
-    padding-bottom: 300px;
+    display: grid;
+    place-items: center;
+    max-width: 50%; 
+    margin: 50px;
 }
 
 h2 {
@@ -28,7 +33,7 @@ h2 {
 }
 
 .content {
-    width: 400px;
+    width: 370px;
     padding: 80px;
     color: #000000;
     border:1px solid red;
@@ -95,4 +100,30 @@ h5 a{
 #submit{
     background-color: red;
     color: #fff;
+}
+@media screen and (max-width: 900px) {
+   body{
+    text-align: center;
+   }
+    .signin-form{
+    display: inline-block;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+   }
+   .content1{
+    font-size: smaller;
+    max-width: 80%;
+    padding: 0;
+   }
+   .content{
+    max-width: 100%;
+    padding: 9px;
+   }
+   .inputBox input {
+    width: 80%;
+   }
+   #submit {
+    width: 90%;
+   }
 }
