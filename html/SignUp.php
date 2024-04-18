@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/SignUp.css">
+    <link rel="stylesheet" href="../css/SignUp.css">
     <title>Sign Up</title>
 </head>
 <body>
     <div class="krejt">
     <div class="container">
         <h1>Sign Up</h1>
-        <form action="/html/home.html">
+        <form action="home.php">
             <div class="form-field">
                 <label for="email"></label>
                 <input type="email" id="email" placeholder="Email" autocomplete="on" required>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
-    <link rel="stylesheet" href="/css/SignIn.css">
+    <link rel="stylesheet" href="../css/SignIn.css">
 </head>
 <body>
     <div class="signin-form">
@@ -17,7 +17,7 @@
             </p>
         </div>
     
-    <form action="/html/home.html">
+    <form action="home.php">
     <body>
         <div class="content">
             <h2>Sign In</h2>
@@ -35,7 +35,7 @@
                 <div class="inputBox">
                     <input type="submit" value="Login" id="submit">
                 </div>
-                <h5>Don't have an account? &nbsp;<a href="/html/SignUp.html">Sign Up here</a></h5>
+                <h5>Don't have an account? &nbsp;<a href="SignUp.php">Sign Up here</a></h5>
               </div>  
 
         </div>

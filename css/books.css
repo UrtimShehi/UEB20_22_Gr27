@@ -135,7 +135,13 @@ h1 {
   margin-bottom: -3px;
 }
 
-
+#list-th{
+  WIDTH: 1024px;
+  margin: auto;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
 #list-th:target .book {
   height: 100px;
   width: 250px;
