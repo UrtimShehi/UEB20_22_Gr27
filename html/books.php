@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BOOKS</title>
-  <script src="../js/loadHeader.js"></script>
-  <script src="../js/footer.js"></script>
-  <script src="../js/loadshigjeta.js"></script>
-  <link rel="stylesheet" href="/css/books.css">
-</head>
-<body>
-  <div id="headerContainer"></div>
+
+  <?php
+  include "../components/header.php"
+  ?>
 
   <div id="large-th">
     <div class="kontinier">
@@ -29,7 +20,7 @@
   </div>
   <script src="../js/books.js"></script>
   <div id="shigjeta"></div>
-  <div id="footerContainer"></div>
+  
   <script>
     document.addEventListener('click', function(event) {
       if (event.target.closest('.menu-toggle')) {
@@ -46,5 +37,7 @@
 
     }
   </script>
-</body>
-</html>
+
+<?php
+include "../components/footer.php"
+?>

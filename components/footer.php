@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/futeri.css">
+    <link rel="stylesheet" href="../css/futeri.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -33,28 +33,24 @@
 </script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
- 
 
-</head>
-
-
-<body class="body">
+<body class="body"> -->
     
         <div class="futeri">
             <div class="futeri1">
                     <ol class="futeri2">
                         <li>
                             <div class="social-links">
-                                <a href="https://www.facebook.com/"><img src="/fotot/facebook.png" alt="instagram" class="img"></a>
-                                <a href="https://www.instagram.com/"><img src="/fotot/instagram (1).png" alt="Facebook" class="img"></a>
-                                <a href="https://www.google.com/gmail/about/"><img src="/fotot/email.png" alt="email" class="img"></a>
+                                <a href="https://www.facebook.com/"><img src="../fotot/facebook.png" alt="Facebook" class="img"></a>
+                                <a href="https://www.instagram.com/"><img src="../fotot/instagram (1).png" alt="Instagram" class="img"></a>
+                                <a href="https://www.google.com/gmail/about/"><img src="../fotot/email.png" alt="email" class="img"></a>
                             </div>
                         </li>
                         <li class="navigations">
                             <div class="renipar justify-content-center align-items-center">
                                 <ul class="futeri2">
-                                    <li><a href="/html/About.html">Info</a></li>
-                                    <li><a href="/html/contact.html">Support</a></li>
+                                    <li><a href="../html/About.php">Info</a></li>
+                                    <li><a href="../html/Contact.php">Support</a></li>
                                     <li><a href="">Marketing</a></li>
                                 </ul>
                             </div>
